@@ -1,0 +1,48 @@
+{
+  "name": "grunt-toc",
+  "description": "Grunt plugin for generating a markdown Table of Contents (TOC).",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-toc",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "http://github.com/jonschlinkert/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assemble/assemble-toc/"
+  },
+  "bugs": {
+    "url": "git://github.com/assemble/assemble-toc/issues/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/assemble-toc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "marked-toc": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "markdown toc",
+    "marked",
+    "marked.js",
+    "readme toc",
+    "table of contents",
+    "toc"
+  ]
+}
